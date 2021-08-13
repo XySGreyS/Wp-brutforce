@@ -50,6 +50,11 @@ Using a multiple password / wordlist
 python WpCrack.py -t http://site.com/wp-login.php -u admin --p wordlist.txt
 ```
 
+Using a multiple url / Password 
+```bash
+python WpCrack.py -t url.txt -u wordlist.txt --p wordlist.txt
+```
+
 ## About
 WpCrack is a tool used to force login into the WordPress CMS web application and is built in the Python programming language
 
