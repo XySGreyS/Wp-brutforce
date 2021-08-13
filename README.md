@@ -42,17 +42,17 @@ Copyright © 2021 Andrew - Powered by Indonesian Darknet
 
 Using a single password
 ```bash
-python WpCrack.py -t http://site.com/wp-login.php -u admin -p password
+python wp.py -t http://site.com/wp-login.php -u admin -p password
 ```
 
 Using a multiple password / wordlist
 ```bash
-python WpCrack.py -t http://site.com/wp-login.php -u admin --p wordlist.txt
+python wp.py -t http://site.com/wp-login.php -u admin --p wordlist.txt
 ```
 
 Using a multiple url / Password 
 ```bash
-python WpCrack.py -t url.txt -u wordlist.txt --p wordlist.txt
+python wp.py -t url.txt -u wordlist.txt --p wordlist.txt
 ```
 
 ## About
